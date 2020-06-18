@@ -160,13 +160,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: rgba(12, 11, 9, 0.6);
-  image-resolution: px;
+  image-resolution: 100px;
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
   top: 40px;
 }
+
 
 #header.header-scrolled {
   top: 0;
@@ -679,6 +680,7 @@ section {
   overflow: hidden;
 }
 
+
 .section-bg {
   background-color: #572938;
 }
@@ -915,6 +917,12 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
+#menu {
+  padding: 250px 0;
+  overflow: hidden;
+}
+
+
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;

@@ -789,6 +789,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
+  
 }
 
 .about .about-img {
@@ -1018,6 +1019,8 @@ section {
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
+
+
 
 /*--------------------------------------------------------------
 # Specials
